@@ -118,6 +118,5 @@ mock_portal/            fake admin portal (Flask) + dummy catalogue
 data/                   sample_price_sheet.xlsx
 ```
 
-MIT licensed. Replace "Your Name" in `LICENSE` with yours.
-"# price-hike-automation" 
-"# price-hike-automation" 
+MIT licensed.
+
