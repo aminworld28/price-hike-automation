@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+browser_profile/
+oms_profile/
+prices_log_*.csv
+config.real.json
+# real price sheets stay local; only the dummy sample is tracked
+data/*.xlsx
+!data/sample_price_sheet.xlsx

@@ -1,0 +1,26 @@
+{
+  "base_url": "http://127.0.0.1:5000",
+  "search_url": "/products?keyword={code}",
+  "excel_file": "data/sample_price_sheet.xlsx",
+  "header_row": 2,
+  "columns": { "category": 0, "code": 1, "name": 2, "price": 3 },
+  "login_pause": false,
+  "profile_dir": "./browser_profile",
+  "headless": false,
+  "force_service_all": false,
+  "beverage_category_keyword": "bever",
+  "selectors": {
+    "result_rows": "table tbody tr",
+    "name_cell_index": 1,
+    "code_cell_index": 2,
+    "edit_link": "a[href*='/edit']",
+    "price_input": "input[type=number]",
+    "radios": "input[type=radio]",
+    "submit_button_text": "Update"
+  },
+  "radio_layout": {
+    "expected_count": 10,
+    "type": { "Veg": 2, "Non Veg": 3, "None": 4 },
+    "service": { "All": 7, "Delivery": 8, "Pickup": 9 }
+  }
+}
